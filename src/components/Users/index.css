@@ -1,0 +1,79 @@
+.app-container-user {
+  background-image: linear-gradient(to right, #729ec7, rgb(176, 46, 209));
+  min-height: 90vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+.name {
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+}
+.button-retry {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+.list-item-user {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  border: 1px solid white;
+  height: 50px;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+.height {
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.icon {
+  outline: none;
+  cursor: pointer;
+}
+.preview {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.modal-container {
+  background-color: white;
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+text-align: center;  
+}
+.icon-close {
+  color: black;
+  font-size: 30px;
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;    
+}
+.text-popup {
+    color: rgb(31, 2, 44);
+    font-size: 20px;
+    height: 30px;
+}
